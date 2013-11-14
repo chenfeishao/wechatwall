@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="resources/js/jquery-1.9.1.min.js">
+        </script>
+        <link href="resources/css/wechatwall.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+
+            function UpdateMessage() {
+                $.ajax({
+                    url: 'pages/result.php',
+                    success: function(data) {
+                        $('section').html(data);
+                    }
+                });
+            }
+
+            setInterval("UpdateMessage()", 5000);
+        </script>
+        <title>
+            湖工大在线微信墙
+        </title>
+    </head>
+    
+    <body onload="UpdateMessage();">
+        <div class="top">
+        </div>
+            <div class="content">
+            <section>
+      <div class="post">
+            <div id="head_img" style="background-image:url( pages/images/1394182504.jpg);">
+                <div id="post_name">
+                    <div>
+                        俊
+                    </div>
+                </div>
+            </div>
+            <div id="post_container">
+                <div id="post_content">
+                    查分1210800536
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div id="head_img" style="background-image:url( pages/images/361606535.jpg);">
+                <div id="post_name">
+                    <div>
+                        氧气
+                    </div>
+                </div>
+            </div>
+            <div id="post_container">
+                <div id="post_content">
+                    嘎嘎不好不过呵呵vhbvffgfghhhjkklkjn 哈哈哈哈哈哈哈解决哈哈哈哈反反复复个嘎嘎呵呵就解决解决解决和嘎嘎嘎嘎方法国总统治疗效果如何处理器是否符合国家级在家你说明什么意思你说明什么意思是否能够我也要
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div id="head_img" style="background-image:url( pages/images/1045277280.jpg);background-repeat:no-repeat;background-size:150px 150px;">
+                <div id="post_name">
+                    <div>
+                        汪艳玉
+                    </div>
+                </div>
+            </div>
+            <div id="post_container">
+                <div id="post_content">
+                    查分1110711325
+                </div>
+            </div>
+        </div>
+        </section>
+        </div>
+    </body>
+</html>

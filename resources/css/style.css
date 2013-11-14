@@ -1,0 +1,34 @@
+/*css document*/
+*{  margin:0;padding:0;}
+body{  background:#ccc;}
+#login_form{ padding:60px;
+	width:376px;height:255px;
+	margin:150px auto 0 auto;
+	background:url(../img/form_bg.png) no-repeat;
+	border:1px solid #259;
+}
+input[type="text"],input[type="password"],input[type="submit"]{
+	border:none;
+	}
+input[type="text"],input[type="password"]{
+	width:150px;height:50px;
+	padding-left:10px;
+	font-size:18px;
+	text-align:left;
+}
+input[type="text"]{ margin:100px 0 0 8px;
+	background:url(../img/input_bg.png) no-repeat;	
+	}
+input[type="password"]{  margin-left:20px;
+	background:url(../img/input_bg.png) no-repeat;	
+	}
+input[type="submit"]{
+	width:81px;height:36px;
+	background:url(../img/button.png);
+	margin-top:57px;
+	margin-left:271px;
+	border:none;
+}
+input[type="submit"]:hover{
+	cursor:pointer;
+}
